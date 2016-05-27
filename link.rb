@@ -1,14 +1,15 @@
 class Link < Post
-
   def initialize
     super
+   @url = ''
+  end
 
-    @url = ''
-  end
-  def read_from_console
-  end
+def read_from_console
+
+end
 
   def to_strings
+
   end
 
 end
